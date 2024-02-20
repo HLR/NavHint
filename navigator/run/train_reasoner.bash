@@ -19,4 +19,4 @@ flag="--vlnbert prevalent
       --dropout 0.5"
 
 mkdir -p snap/$name
-CUDA_VISIBLE_DEVICES=7 python r2r_src_reasoner_v4/train.py $flag --name $name
+CUDA_VISIBLE_DEVICES=7 python r2r_src_reasoner/train.py $flag --name $name

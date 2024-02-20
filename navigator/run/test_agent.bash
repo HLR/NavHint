@@ -6,7 +6,7 @@ flag="--vlnbert prevalent
       --test_only 0
 
       --train validlistener
-      --load snap/VLNBERT-reasoner_v4_best/state_dict/best_val_unseen
+      --load snap/VLNBERT-reasoner_best/state_dict/best_val_unseen
       --features places365
       --maxAction 15
       --batchSize 4
