@@ -7,3 +7,6 @@ The hint generator assists the navigation agent in developing a global understan
 To train the hint generator, we construct a synthetic dataset based on landmarks in the instructions and visible and distinctive objects in the visual environment.
 We evaluate our method on the R2R and R4R datasets and achieve state-of-the-art on several metrics. 
 The experimental results demonstrate that generating hints not only enhances the navigation performance but also helps improve the interpretability of the agent's actions.
+
+### Framework
+![](navhint.png)
