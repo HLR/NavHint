@@ -31,3 +31,14 @@ The generated hints can be obtained by running `python reason_gen.py` or directl
 
 **Test Navigator**
 > bash run/test_agent.bash
+>
+
+### Citation
+If you find our work useful in your research, please consider citing:
+
+    @article{zhang2024navhint,
+     title={NavHint: Vision and language navigation agent with a hint generator},
+     author={Zhang, Yue and Guo, Quan and Kordjamshidi, Parisa},
+     journal={arXiv preprint arXiv:2402.02559},
+     year={2024}
+    }
