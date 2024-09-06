@@ -26,12 +26,15 @@ The generated hints can be obtained by running `python reason_gen.py` or directl
 3. [Trained Nav-Hint](https://drive.google.com/file/d/1Rnoxpgu_anPdPWJY70gaG38CjelTZgGE/view?usp=sharing) (please put trained weights under snap folder)
 
 **Train Navigator**
-> bash run/train_reasoner.bash
+```shell
+bash run/train_reasoner.bash
+```
 
 
 **Test Navigator**
-> bash run/test_agent.bash
->
+```shell
+bash run/test_agent.bash
+```
 
 ### Citation
 If you find our work useful in your research, please consider citing:
