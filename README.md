@@ -16,4 +16,18 @@ The experimental results demonstrate that generating hints not only enhances the
  2. [stored candidate viewpoints for each view](https://drive.google.com/file/d/1OzxkRyaFLbPPTlo6IDdjfkaCRrNuBHlr/view?usp=sharing).
  3. [CLIP objects for each viewpoint](https://drive.google.com/file/d/1-d3wa_Plx00XVGxoie1i75x5Zf8u4QPy/view?usp=sharing). 
 
-The generated hints can be obtained by run `python reason_gen.py` or directly from [hints dataset](https://drive.google.com/drive/folders/1LOrW-cIo9J0Qi6k32RYK6gZWQ5yuzoAS?usp=sharing).
+The generated hints can be obtained by running `python reason_gen.py` or directly from [hints dataset](https://drive.google.com/drive/folders/1LOrW-cIo9J0Qi6k32RYK6gZWQ5yuzoAS?usp=sharing).
+
+
+### Navigator 
+
+1. [Installing Environment and Downloading Dataset](https://github.com/peteanderson80/Matterport3DSimulator)
+2. [Initial weights for Nav-Hint](https://drive.google.com/file/d/1x0szprQKmyts9PvdvunS-trYJtEb9Qt9/view)
+3. [Trained Nav-Hint](https://drive.google.com/file/d/1Rnoxpgu_anPdPWJY70gaG38CjelTZgGE/view?usp=sharing) (please put trained weights under snap folder)
+
+**Train Navigator**
+> bash run/train_reasoner.bash
+
+
+**Test Navigator**
+> bash run/test_agent.bash
